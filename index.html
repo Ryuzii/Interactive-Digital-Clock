@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <div class="time-display">
+                <div class="time">00:00:00</div>
+                <div class="date">Monday, January 1</div>
+                <div class="period">Good Morning</div>
+            </div>
+            
+            <div class="days-container">
+                <div class="day-item" data-day="0">Sun</div>
+                <div class="day-item" data-day="1">Mon</div>
+                <div class="day-item" data-day="2">Tue</div>
+                <div class="day-item" data-day="3">Wed</div>
+                <div class="day-item" data-day="4">Thu</div>
+                <div class="day-item" data-day="5">Fri</div>
+                <div class="day-item" data-day="6">Sat</div>
+            </div>
+            
+            <div class="weather-container">
+                <div class="weather-info">
+                    <div class="temperature">
+                        <span class="temp-value">25</span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                </div>
+                <div class="location">London, UK</div>
+            </div>
+            
+            <div class="mode-toggle">
+                <button class="toggle-btn" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
